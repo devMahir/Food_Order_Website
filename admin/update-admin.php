@@ -7,7 +7,7 @@
         <?php 
             //Get the id to select admin
             $id = $_GET['id'];
-
+            
             //create sql query to get the details
             $sql = "SELECT * FROM tbl_admin WHERE id=$id";
 
