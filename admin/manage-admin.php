@@ -78,7 +78,7 @@
                                 ?>
                                     <tr>
                                         <td><?php echo $sn++; ?></td>
-                                        <td><?php echo $full_name; ?></td>
+                                        <td><?php echo ucwords($full_name); ?></td>
                                         <td><?php echo $username; ?></td>
                                         <td>
                                             <a href="<?php echo SITEURL;?>admin/update-password.php?id=<?php echo $id?>" class="btn-primary">Change Password</a>
